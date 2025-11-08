@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="main-wrapper">
+      <section class="main">
+        <div class="main-header">
+          <div>
+            <h2>Premium</h2>
+            <p class="first-p">Faster Instagram Growth</p>
+          </div>
+          <h2>$199/month</h2>
+        </div>
+
+        <form action="#">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="form-input"
+          />
+          <input
+            type="text"
+            name="cardholdername"
+            placeholder="Cardholder Name"
+            class="form-input"
+          />
+          <div class="cardnumber">
+            <input
+              type="number"
+              name="cardnumber"
+              placeholder="Card Number"
+              class="form-input Card-Number-svg"
+            />
+          </div>
+
+          <div class="date-cvv">
+            <input
+              type="text"
+              name="date"
+              placeholder="Date"
+              class="form-input date"
+            />
+            <input
+              type="number"
+              name="cvv"
+              placeholder="CVV"
+              class="form-input cvv"
+            />
+          </div>
+
+          <div class="country-zip">
+            <select name="country">
+              <option value="">Country</option>
+              <option value="georgia">Georgia</option>
+              <option value="usa">Usa</option>
+              <option value="germany">Germany</option>
+              <option value="franc">Franc</option>
+            </select>
+
+            <input
+              type="number"
+              name="zip"
+              placeholder="Zip"
+              class="form-input zip"
+            />
+          </div>
+
+          <input
+            type="number"
+            name="discountcode"
+            placeholder="Discount Code"
+            class="form-input"
+          />
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" class="checkbox" />
+            <p>
+              I accept the <a href="#" class="p-text">Terms of Service</a> and
+              <a href="#" class="p-text">Privacy Policy</a>
+            </p>
+          </div>
+        </form>
+        <div class="button-coupon">
+          <button>
+            Get started | $199
+            <p class="p-discount">$249</p>
+          </button>
+        </div>
+        <div class="coupon">
+          <a href="#" class="have-coupon">Have a coupon?</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
